@@ -1,0 +1,9 @@
+private/
+logs/
+raw/chats/
+*.lock
+.DS_Store
+Thumbs.db
+__pycache__/
+eval/persona/
+00-inbox/local/

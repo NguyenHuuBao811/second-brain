@@ -1,0 +1,23 @@
+"""CLI vận hành brain (scripts/brain.py), tách theo mảng việc."""
+from . import config  # noqa: F401
+from . import util  # noqa: F401
+from . import runjobs  # noqa: F401
+from . import factcheck  # noqa: F401
+from . import learnfeed  # noqa: F401
+from . import learnpending  # noqa: F401
+from . import learnstore  # noqa: F401
+from . import learnrun  # noqa: F401
+from . import textsafe  # noqa: F401
+from . import chatlogs  # noqa: F401
+from . import larkcli  # noqa: F401
+from . import larkcollect  # noqa: F401
+from . import larkdraft  # noqa: F401
+from . import larkjudge  # noqa: F401
+from . import setup  # noqa: F401
+from . import agentapi  # noqa: F401
+from . import upgrade  # noqa: F401
+from . import migrate  # noqa: F401
+from . import dispatching  # noqa: F401
+from . import persona  # noqa: F401
+from . import claudecli  # noqa: F401
+from . import cli  # noqa: F401

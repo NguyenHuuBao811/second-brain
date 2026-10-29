@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./private/**)",
+      "Grep(./private/**)",
+      "Glob(./private/**)",
+      "Edit(./private/**)",
+      "Write(./private/**)",
+      "Edit(./scripts/**)",
+      "Write(./scripts/**)",
+      "Edit(./prompts/**)",
+      "Write(./prompts/**)",
+      "Edit(./headless/**)",
+      "Write(./headless/**)",
+      "Edit(./.claude/**)",
+      "Write(./.claude/**)",
+      "Edit(./CLAUDE.md)",
+      "Write(./CLAUDE.md)",
+      "Edit(./AGENTS.md)",
+      "Write(./AGENTS.md)",
+      "Edit(./GEMINI.md)",
+      "Write(./GEMINI.md)",
+      "Edit(./raw/**)",
+      "Write(./raw/**)",
+      "Edit(./.git/**)",
+      "Write(./.git/**)"
+    ]
+  }
+}

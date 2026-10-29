@@ -1,0 +1,10 @@
+# Giữ LF trên mọi máy, kể cả Windows, để diff và script không bị lệch.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
+
+# File chỉ append: gộp cả hai phía khi 2 máy cùng ghi, không báo conflict.
+LOG.md merge=union
+10-daily/*.md merge=union
+eval/review-queue.md merge=union
