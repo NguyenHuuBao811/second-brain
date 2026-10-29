@@ -9,7 +9,8 @@
 | Màn hình | Route | Điều kiện truy cập | File doc |
 |---|---|---|---|
 | Đăng nhập | `/login` | Chưa đăng nhập (đã login → tự chuyển về trang mặc định) | [10-dang-nhap.md](10-dang-nhap.md) |
-| Đơn hàng | `/orders`, `/orders/:id`, `/orders/:id/items/:itemId` | Đã đăng nhập | [11-don-hang.md](11-don-hang.md) |
+| Đơn hàng | `/orders` | Đã đăng nhập | [11-don-hang.md](11-don-hang.md) |
+| Chi tiết đơn / item | `/orders/:id`, `/orders/:id/items/:itemId` | Đã đăng nhập | [12-chi-tiet-don.md](12-chi-tiet-don.md) |
 | Trạm Assize | `/production/assize` | Đã đăng nhập | [20-tram-assize.md](20-tram-assize.md) |
 | Trạm Label | `/production/label` | Đã đăng nhập | [21-tram-label.md](21-tram-label.md) |
 | Trạm Shipping | `/production/shipping` | Đã đăng nhập | [22-tram-shipping.md](22-tram-shipping.md) |
